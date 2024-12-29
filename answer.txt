@@ -1,0 +1,4 @@
+When the + operator is used with a number JavaScript treats it as a string. This performs a concatenation operation rather than numeric addition.
+When using the (==) in this example false == 0 JavaScript may imply that "false" equals 0 and return true.  It is better to use functions like (Number (), String), Boolean ())
+The operators I find confusing are % Modulus (remainder) This operator is not intuitive with what it will do when being used like some of the others. != Strict equal and !== Strict not equal are also dificult to remember.
+You can use Modulus operator to determine whether a number is even or odd based on whether it has a remainder. 
